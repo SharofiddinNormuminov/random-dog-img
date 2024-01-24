@@ -4,8 +4,8 @@ const img = document.querySelector("img");
 const loader = document.querySelector(".wrapper");
 
 randomBtn.addEventListener("click", () => {
-
   randomImg.classList.add("hide");
+  randomBtn.classList.add("hide");
   loader.classList.remove("hide");
 
   const req = new XMLHttpRequest();
@@ -18,6 +18,7 @@ randomBtn.addEventListener("click", () => {
 
     setTimeout(() => {
       loader.classList.add("hide");
+      randomBtn.classList.remove("hide");
       randomImg.classList.remove("hide");
     }, 2000);
   });

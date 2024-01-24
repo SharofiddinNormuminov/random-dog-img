@@ -61,8 +61,6 @@ img {
   height: 60px;
   top: 55%;
   left: 43%;
-  /* position: relative; */
-  /* z-index: 1; */
 }
 
 .circle {
@@ -145,4 +143,20 @@ img {
   left: auto;
   right: 15%;
   animation-delay: 0.3s;
+}
+
+@media screen and (max-width: 400px) {
+  .random-img {
+    width: 20rem;
+    height: 15rem;
+  }
+  button {
+    top: 2rem;
+    right: 0;
+  }
+
+  .wrapper {
+    top: 45%;
+    left: 25%;
+  }
 }
