@@ -146,6 +146,9 @@ img {
 }
 
 @media screen and (max-width: 400px) {
+  h1 {
+    font-size: 3.6rem;
+  }
   .random-img {
     width: 20rem;
     height: 15rem;
@@ -157,6 +160,22 @@ img {
 
   .wrapper {
     top: 45%;
-    left: 25%;
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+  .wrapper {
+    top: 40%;
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 331px) {
+  h1 {
+    font-size: 3.1rem;
   }
 }
